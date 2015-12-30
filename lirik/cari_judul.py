@@ -21,7 +21,7 @@ data = [x.findAll("a") for x in soup.findAll("div",{"id":"IsiUmum"})]
 for dl in range(len(data)):
     if data[dl]:
         for index,i in enumerate(data[dl]):
-            print i.text
+            print i['href']+" "+i.text
             #print link[str(index+1)]
             #i.text : judul lagunya
             #i[href] : link lirik
