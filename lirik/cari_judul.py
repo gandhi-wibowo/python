@@ -20,5 +20,9 @@ soup = BeautifulSoup(html,'lxml')
 data = [x.findAll("a") for x in soup.findAll("div",{"id":"IsiUmum"})]
 for dl in range(len(data)):
     if data[dl]:
-        for i in data[dl]:
-            print i['href']+ " => "+ i.text
+        for index,i in enumerate(data[dl]):
+            print i.text
+            #print link[str(index+1)]
+            #i.text : judul lagunya
+            #i[href] : link lirik
+#            print ")"+ i.text
