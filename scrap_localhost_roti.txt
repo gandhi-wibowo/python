@@ -1,0 +1,30 @@
+500
+Gram
+tepung terigu
+2
+Butir
+telur
+1
+SDM
+mentega
+300
+Mili
+santan
+300
+Mili
+air bersih
+5
+SDM
+vanili
+5
+SDM
+garam
+125
+Gram
+gula pasir
+5
+SDM
+Beking powder
+5
+SDM
+ragi instan

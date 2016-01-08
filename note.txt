@@ -1,0 +1,41 @@
+x = list('google')
+
+for i, j in enumerate(x):
+	print i, j
+
+
+Note: i adalah index
+      j adalah datanya
+
+Output :
+0 g
+1 o
+2 0
+3 g
+4 l
+5 e
+____________________________________________________________________________
+
+Note : split() fungsi untuk membuat suatu variable menjadi list
+split('/')[-1] : artinya, pisahkan string dari suatu variable dengan '/' adalah pembatasnya, lalu ambil yang paling akhir
+sample : nama= "Gandhi / wibowo / adalah / nama / pemberian"
+nama.split("/")
+gandhi
+wibowo
+adalah
+nama
+pemberian
+
+nama.split("/")[-1]
+pemberian
+
+___________________________________________________________________________
+
+import codecs
+outfile = codecs.open('review.txt','w','utf-8')
+outfile.write("some text")
+outfile.close()
+
+____________________________________________________________________________
+
+python string operation
